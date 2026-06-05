@@ -1,0 +1,8 @@
+{
+  "name": "inventario-anime",
+  "version": "1.0.0",
+  "description": "SPA de inventario de anime con Vanilla JS y Tailwind CSS v4, usando json-server como servidor de base de datos y archivos estáticos",
+  "scripts": {
+    "start": "npx json-server --watch db.json --port 3000 --static ./public"
+  }
+}

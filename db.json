@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "email": "otaku@example.com"
+    },
+    {
+      "username": "user",
+      "email": "user1@random.com",
+      "password": "user123",
+      "id": "i6CQQ_s09K4"
+    }
+  ],
+  "animes": [
+    {
+      "id": "1",
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "genre": "Acción, Aventura, Fantasía",
+      "episodes": 64,
+      "status": "Completado",
+      "rating": 10,
+      "synopsis": "Dos hermanos buscan la Piedra Filosofal para restaurar sus cuerpos tras un fallido experimento de transmutación humana.",
+      "userId": 1
+    },
+    {
+      "title": "Death Note",
+      "genre": "Misterio",
+      "episodes": 48,
+      "status": "Pendiente",
+      "rating": 9,
+      "synopsis": "Un chico encuentra una libreta y empieza a hacer locuras.",
+      "userId": 1,
+      "id": "Z7SAyCmavgA"
+    },
+    {
+      "title": "One Piece",
+      "genre": "Aventura",
+      "episodes": 1125,
+      "status": "Viendo",
+      "rating": 10,
+      "synopsis": "Peak. Luffy sera el rey de los piratas and I will be there, no matter what.",
+      "userId": "i6CQQ_s09K4",
+      "id": "1jfT0hXpRo8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
